@@ -1,0 +1,6 @@
+interface:
+  display_name: "工程图纸多专业分析"
+  short_description: "提供文件夹即可只读识别建筑、结构和机电等图纸，按专业整理对象关系与依据"
+  default_prompt: "使用 $cad-spatial-analysis 只读分析我提供的图纸文件夹，先识别专业、楼层和版本，再按对应专业扫描主要对象、跨图索引与关系，明确可靠依据和未确认事项。"
+policy:
+  allow_implicit_invocation: true
